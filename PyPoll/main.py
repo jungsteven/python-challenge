@@ -6,7 +6,7 @@ from collections import defaultdict
 
 #Open and read CSV file
 
-election_csv = os.path.join("..", "homework", "election_data.csv")
+election_csv = os.path.join("..", "Resources", "election_data.csv")
 
 columns = defaultdict(list) # each value in each column is appended to a list
 
@@ -85,4 +85,3 @@ print("---------------------------")
 
 
 #-------------------------------------------------------------------------------------------------------------------------
-
